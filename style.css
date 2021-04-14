@@ -148,16 +148,16 @@ body {
   text-decoration: none;
 }
 .navbar .social-btn .btn-primary {
-  background: #507cc0;
+  background: #DB4437;
 }
 .navbar .social-btn .btn-primary:hover {
-  background: #4676bd;
+  background: #DB4437;
 }
 .navbar .social-btn .btn-info {
-  background: #64ccf1;
+  background: #A3AAAE;
 }
 .navbar .social-btn .btn-info:hover {
-  background: #4ec7ef;
+  background: #A3AAAE;
 }
 .navbar .social-btn .btn i {
   margin-right: 5px;
