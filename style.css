@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100;500&display=swap");
 body {
-  font-family: "Varela Round", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .form-control {
   box-shadow: none;
@@ -52,8 +53,8 @@ body {
   padding-left: 40px;
   padding-right: 40px;
 }
-.shifter {
-  margin-left: 250px;
+.shift {
+  margin-left: 200px;
 }
 
 .navbar .nav .btn-primary,
@@ -146,19 +147,27 @@ body {
   line-height: 34px;
   width: 47%;
   text-decoration: none;
+  border-radius: 30px;
 }
 .navbar .social-btn .btn-primary {
+
   background: #DB4437;
 }
 .navbar .social-btn .btn-primary:hover {
   background: #DB4437;
+
 }
+
 .navbar .social-btn .btn-info {
+
   background: #A3AAAE;
 }
 .navbar .social-btn .btn-info:hover {
-  background: #A3AAAE;
+
+  background: black;
+
 }
+
 .navbar .social-btn .btn i {
   margin-right: 5px;
   font-size: 16px;
@@ -228,5 +237,11 @@ body {
   .navbar .nav .btn-primary,
   .navbar .nav .btn-primary:active {
     display: block;
+  }
+  .navbar-nav .btn-primary {
+    width: 95% !important;
+  }
+  .shift {
+    margin-left: 0px !important;
   }
 }
